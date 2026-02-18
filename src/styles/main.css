@@ -1,8 +1,11 @@
 body {
   width: 100%;
-  margin: auto;
+  height: 100vh;
+  margin: 0;
+  padding-top: 70px;
   display: grid;
   grid-template-columns: 0.2fr 3fr 0.2fr;
+  grid-template-rows: 0.2fr 3fr 0.2fr;
   justify-content: center;
   align-items: center;
   background: #F8F5F2;
@@ -22,8 +25,13 @@ main {
   grid-column-start: 2;
   grid-column-end: 3;
   width: 100%;
+  height: 100%;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   grid-column-start: span 3;
   background: #F8F5F2;
   width: 100%;
@@ -84,12 +92,16 @@ nav a:link {
 .home-section {
   display: flex;
   flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
 }
 
 .profile-info {
   display: flex;
   flex-direction: column;
   margin-right: 5em;
+  width: 100%;
+  height: 100%;
 }
 
 .profile-header h1 {
@@ -116,14 +128,45 @@ nav a:link {
   padding-left: 0;
 }
 
+.profile-picture {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.profile-picture::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background-color: #ffe4e6;
+  border-radius: 20px;
+  transform: rotate(-3deg);
+  z-index: 1;
+}
+
 .profile-picture img {
-  margin-left: 5em;
-  border: 10px solid white;
-  border-radius: ;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 hr.solid {
   border-top: 1px solid #2B2B2B;
   width: 100%;
   margin: 1em 0;
+}
+
+@media (min-width: 1024px) {
+  .profile-picture {
+    width: 820px;
+    height: 960px;
+    flex-shrink: 0;
+  }
 }
