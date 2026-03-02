@@ -115,6 +115,18 @@ nav a:visited {
   text-decoration: none;
 }
 
+.card button {
+  background: #E04D56;
+  color: #F8F5F2;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em 0.1em;
+  font-size: large;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
 @media (min-width: 1280px) {
   nav a {
     font-size: larger;
