@@ -1,0 +1,14 @@
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-section h1 {
+  font-size: 4em;
+  margin-top: 0;
+  color: #2B2B2B;
+}
