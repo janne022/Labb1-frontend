@@ -35,7 +35,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   margin: 1em;
-  font-size: x-large;
+  font-size: larger;
 }
 nav a:hover {
   text-decoration: underline;
@@ -46,15 +46,10 @@ nav a:hover {
 nav a:active {
   color: #2B2B2B;
 }
-nav a:link {
-  color: white ;
-}
 .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
 .nav-links li {
   list-style: none;
@@ -148,6 +143,10 @@ hr.solid {
 }
 
 @media (min-width: 1280px) {
+  nav a {
+    font-size: larger;
+  }
+
   .home-section {
     flex-direction: row-reverse;
     justify-content: center;
