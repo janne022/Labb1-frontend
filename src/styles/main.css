@@ -43,9 +43,12 @@ nav a:hover {
   text-decoration-thickness: 2px;
   cursor: pointer;
 }
-nav a:active {
+
+nav a:visited {
   color: #2B2B2B;
+  text-decoration: none;
 }
+
 .nav-links {
   display: flex;
   justify-content: center;
@@ -53,6 +56,10 @@ nav a:active {
 }
 .nav-links li {
   list-style: none;
+}
+
+.nav-links li.active a{
+  color: #E04D56;
 }
 
 .primary {
