@@ -62,7 +62,7 @@ nav a:visited {
   color: #E04D56;
 }
 
-.card-group {
+.card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -70,7 +70,8 @@ nav a:visited {
 }
 
 .card {
-  width: 100%;
+  flex: 1 1 300px;
+  min-width: 240px;
   height: auto;
   background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
@@ -131,7 +132,7 @@ nav a:visited {
   nav a {
     font-size: larger;
   }
-  .card-group {
+  .card-container {
     gap: 40px;
     flex-direction: row;
     justify-content: center;
