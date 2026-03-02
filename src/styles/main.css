@@ -23,7 +23,7 @@ main {
   width: 100%;
 }
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   height: 70px;
   display: flex;
