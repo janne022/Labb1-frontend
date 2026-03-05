@@ -153,3 +153,26 @@ nav a:visited {
     font-size: large;
   }
 }
+
+@media print {
+  body {
+    background: none;
+  }
+  .card {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .card h2, .card h4, .card p {
+    color: #000;
+  }
+  .card a {
+    display: none;
+  }
+  .card button {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}

@@ -112,3 +112,16 @@ hr.solid {
     order: 0;
   }
 }
+
+@media print {
+  .home-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .primary, .secondary {
+    display: none;
+  }
+}
