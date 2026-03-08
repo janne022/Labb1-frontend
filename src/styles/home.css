@@ -6,7 +6,7 @@
   padding: 0.75em 1.5em;
   margin: 0.5em;
   font-size: x-large;
-  cursor: pointer;
+  text-decoration: none;
 }
 .secondary {
   color: #2B2B2B;
@@ -15,7 +15,7 @@
   padding: 0.75em 1.5em;
   margin: 0.5em;
   font-size: x-large;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .home-section {
@@ -40,12 +40,16 @@
 }
 
 .profile-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 4em;
   margin-top: 0;
   color: #2B2B2B;
 }
 
 .profile-header p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   font-size: 2em;
   color: gray;
   margin-bottom: 0;
@@ -58,6 +62,8 @@
 }
 
 .profile-info p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   font-size: 2em;
   color: #2B2B2B;
   padding-left: 0;

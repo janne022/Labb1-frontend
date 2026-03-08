@@ -12,6 +12,8 @@
     padding: 1em;
 }
 .cv-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 3em;
     color: #2B2B2B;
 }

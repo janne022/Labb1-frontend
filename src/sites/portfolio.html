@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
         <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
         <script src="../scripts/portfolio.js" defer></script>
         <script src="../scripts/easter-eggs.js" defer></script>
         <title>Portfolio</title>
@@ -30,7 +35,8 @@
                         <article class="card">
                             <h2 class="card-title"></h2>
                             <h4 class="card-subheading"></h4>
-                            <img class="card-image" src="" srcset="" alt="Project Image">
+                            <img class="card-image" src srcset
+                                alt="Project Image">
                             <button class="open-modal-btn">View Project</button>
                         </article>
                     </template>
@@ -38,9 +44,9 @@
 
                 <dialog id="project-modal">
                     <article class="card">
-                            <h2 class="card-title"></h2>
-                            <h4 class="card-subheading"></h4>
-                            <p class="card-body"></p>
+                        <h2 class="card-title"></h2>
+                        <h4 class="card-subheading"></h4>
+                        <p class="card-body"></p>
                         <button id="close-modal-btn">Close</button>
                     </article>
                 </dialog>

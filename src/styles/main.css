@@ -79,6 +79,8 @@ nav a:visited {
   padding: 1em;
 }
 .card h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 2em;
   color: #2B2B2B;
   margin-bottom: 0;
@@ -88,6 +90,8 @@ nav a:visited {
   width: 100%;
 }
 .card h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   font-size: 0.9em;
   color: #555454;
   margin-top: 0;
@@ -99,10 +103,14 @@ nav a:visited {
 }
 
 .card p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   font-size: 1em;
   color: #2B2B2B;
 }
 .card a {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   background: #E04D56;
   color: #F8F5F2;
   border: none;
@@ -123,6 +131,8 @@ nav a:visited {
   border-radius: 10px;
   padding: 0.5em 0.1em;
   font-size: large;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   cursor: pointer;
   text-align: center;
   width: 100%;
