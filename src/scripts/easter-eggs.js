@@ -1,3 +1,20 @@
+// User input
+const message = "1337";
+let userInput = "";
+
+document.addEventListener("keydown", (event) => {
+    userInput += event.key.toLowerCase();
+
+    userInput = userInput.slice(-message.length);
+
+    if (userInput === message) {
+        modal.showModal();
+
+        userInput = "";
+    }
+});
+
+
 // Invisible button that triggers a modal popup :D
 const invisibleBtn = document.createElement("button");
 invisibleBtn.style.position = "fixed";
@@ -23,7 +40,7 @@ document.body.appendChild(invisibleBtn);
 const closeModalBtn = modal.querySelector("#close-modal-btn");
 
 invisibleBtn.addEventListener("click", () => {
-        modal.showModal();
+        document.body.style.backgroundImage = "url(https://ik.imagekit.io/4mzgxtohp/monke.png)";
 });
 
 closeModalBtn.addEventListener("click", () => {
