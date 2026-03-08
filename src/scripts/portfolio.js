@@ -3,9 +3,11 @@ const cardData = [
     {
         title: "Bank Appen",
         subheading: "C#",
-        imageSrcSet: `https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-300 300w,
-                      https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-500 500w,
-                      https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-768 768w`,
+        imageSrcSet: [
+            "https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-300 300w",
+            "https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-500 500w",
+            "https://ik.imagekit.io/4mzgxtohp/bank-application.png?tr=w-768 768w"
+        ],
         modalTitle: "Bank Appen",
         modalSubheading: "A console application written in C# for a group project.",
         modalBody: `<p><strong>Features:</strong></p>
@@ -22,9 +24,11 @@ const cardData = [
     {
         title: "MILTON",
         subheading: "Blazor, ASP.NET",
-        imageSrcSet: `https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-300 300w,
-                      https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-500 500w,
-                      https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-768 768w`,
+        imageSrcSet: [
+            "https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-300 300w",
+            "https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-500 500w",
+            "https://ik.imagekit.io/4mzgxtohp/MILTON.png?tr=w-768 768w"
+        ],
         modalTitle: "MILTON",
         modalSubheading: "AI Compliance Engine",
         modalBody: `<p>MILTON provides an enterprise-grade AI compliance engine that transforms source data into audit-ready evidence for externally and internally regulated industries.</p>`
@@ -32,9 +36,11 @@ const cardData = [
     {
         title: "Munilytics",
         subheading: "React, ASP.NET, Wolverine, FastEndpoints, Entity Framework",
-        imageSrcSet: `https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-300 300w,
-                      https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-500 500w,
-                      https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-768 768w`,
+        imageSrcSet: [
+            "https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-300 300w",
+            "https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-500 500w",
+            "https://ik.imagekit.io/4mzgxtohp/munalytics.jpg?tr=w-768 768w"
+        ],
         modalTitle: "Munilytics",
         modalSubheading: "High-performance analytics engine for Swedish municipalities.",
         modalBody: `<p><strong>The Vision:</strong><br>
@@ -50,9 +56,11 @@ const cardData = [
     {
         title: "Andaluz Casa",
         subheading: "Next.js, Storyblok",
-        imageSrcSet: `https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-300 300w,
-                      https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-500 500w,
-                      https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-768 768w`,
+        imageSrcSet: [
+            "https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-300 300w",
+            "https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-500 500w",
+            "https://ik.imagekit.io/4mzgxtohp/andaluz.png?tr=w-768 768w"
+        ],
         modalTitle: "Andaluz Casa",
         modalSubheading: "Holiday house rental website",
         modalBody: `<p>A complete holiday house rental website featuring headless CMS support, extensive property information with markdown formatting, integrated contact forms, and a custom blog.</p>`
