@@ -24,69 +24,25 @@
         <main>
             <section class="portfolio-section">
                 <h1>Portfolio</h1>
-                <div class="card-container">
-                    <article class="card">
-                        <h2>Munalytics</h2>
-                        <h4>Tech Stack: ASP.NET Core, React, SQL Server</h4>
-                        <p>Developed a full-stack e-commerce website using
-                            ASP.NET
-                            Core and React. Implemented features such as user
-                            authentication, product management, and a shopping
-                            cart.</p>
-                        <dialog id="projectModal">
-                            <article class="card">
-                                <h2>MILTON</h2>
-                                <h4>Tech Stack: ASP.NET Core, React, SQL
-                                    Server</h4>
-                                <p>Developed a full-stack e-commerce website
-                                    using
-                                    ASP.NET
-                                    Core and React. Implemented features such as
-                                    user
-                                    authentication, product management, and a
-                                    shopping
-                                    cart.</p>
-                                    <button id="closeProjectModal">Close</button>
-                            </article>
-                        </dialog>
-                        <button id="openProjectModal">View Project</button>
-                    </article>
-                    <article class="card">
-                        <h2>MILTON</h2>
-                        <h4>Tech Stack: ASP.NET Core, React, SQL Server</h4>
-                        <p>Developed a full-stack e-commerce website using
-                            ASP.NET
-                            Core and React. Implemented features such as user
-                            authentication, product management, and a shopping
-                            cart.</p>
-                        <a class="primary"
-                            href="https://github.com/jag--lskar/MILTON">View
-                            Project</a>
-                    </article>
-                    <article class="card">
-                        <h2>Bank Appen</h2>
-                        <h4>Tech Stack: ASP.NET Core, React, SQL Server</h4>
-                        <p>Developed a full-stack e-commerce website using
-                            ASP.NET
-                            Core and React. Implemented features such as user
-                            authentication, product management, and a shopping
-                            cart.</p>
-                        <a class="primary"
-                            href="https://github.com/jag--lskar/BankAppen">View
-                            Project</a>
-                    </article>
-                    <article class="card">
-                        <h2>Andaluz Casa</h2>
-                        <h4>Tech Stack: ASP.NET Core, React, SQL Server</h4>
-                        <p>Developed a full-stack e-commerce website using
-                            ASP.NET
-                            Core and React. Implemented features such as user
-                            authentication, product management, and a shopping
-                            cart.</p>
-                        <a class="primary" href="https://www.andaluz.casa/">View
-                            Project</a>
-                    </article>
+                <div id="card-container">
+                    <template id="card-template">
+                        <article class="card">
+                            <h2 class="card-title"></h2>
+                            <h4 class="card-subheading"></h4>
+                            <img class="card-image" src="" srcset="" alt="Project Image">
+                            <button class="open-modal-btn">View Project</button>
+                        </article>
+                    </template>
                 </div>
+
+                <dialog id="project-modal">
+                    <article class="card">
+                            <h2 class="card-title"></h2>
+                            <h4 class="card-subheading"></h4>
+                            <p class="card-body"></p>
+                        <button id="close-modal-btn">Close</button>
+                    </article>
+                </dialog>
             </section>
         </main>
     </body>
