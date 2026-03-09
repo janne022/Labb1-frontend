@@ -157,3 +157,47 @@ blockquote {
     font-size: 1.1em;
   }
 }
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cv-section {
+    padding: 0;
+  }
+
+  .cv-section h1 {
+    font-size: 2em;
+  }
+
+  .profile-content {
+    padding: 1.5em;
+    text-align: left;
+  }
+
+  .profile-content p {
+    font-size: 1.1em;
+  }
+
+  .contact-bar {
+    display: none;
+  }
+
+  .content-block h3 {
+    font-size: 1.4em;
+  }
+
+  .project-item {
+    font-size: 1.1em;
+  }
+
+  .project-item strong {
+    font-size: 1.3em;
+  }
+
+  .content-block ul li {
+    font-size: 1.1em;
+  }
+}
